@@ -1,0 +1,60 @@
+/* Import elegant fonts */
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Poppins:wght@300;400;500&display=swap");
+
+.product-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.75); /* dark overlay */
+  border-radius: 15px;
+  color: white; /* default white text */
+  font-family: "Poppins", sans-serif;
+}
+
+.product-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border: 3px solid gold;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 20px rgba(255, 215, 0, 0.3);
+}
+
+.product-details-container h2 {
+  font-family: "Cinzel Decorative", cursive;
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: white; /* heading in white */
+}
+
+.product-details-container p {
+  font-size: 18px;
+  margin: 8px 0;
+  color: white; /* all paragraphs white */
+}
+
+.button-group {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.button-group button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 2px solid gold;
+  background: transparent;
+  color: white; /* white button text */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button-group button:hover {
+  background: gold;
+  color: black;
+}

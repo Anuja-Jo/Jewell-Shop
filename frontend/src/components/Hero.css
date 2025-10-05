@@ -1,0 +1,46 @@
+/* Hero.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  
+    /* Background image for entire page */
+    background-image: url("https://www.pixerview.com/wp-content/uploads/2018/07/concept-images_13-1024x692.jpg");
+    background-size: cover;         /* Cover entire screen */
+    background-position: center;    /* Center image */
+    background-repeat: no-repeat;   /* Prevent tiling */
+    background-attachment: fixed;   /* Stays fixed on scroll */
+  }
+  
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;   /* Full viewport height */
+    text-align: center;
+    color: white;
+  
+    /* Optional dark overlay for readability */
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .shop-now-btn {
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #d4af37; /* Gold shade */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+  }
+  
+  .shop-now-btn:hover {
+    background-color: #b8860b;
+    transform: scale(1.05);
+  }
+  
