@@ -4,25 +4,6 @@ A full-stack MERN e-commerce application for a jewellery shop where users can br
 
 ---
 
-## 🚀 Live Demo
-(Add deployed link here if available)
-
----
-
-## 📸 Screenshots
-
-### 🏠 Home Page
-(Add image link)
-
-### 💍 Product Listing
-(Add image link)
-
-### 🛒 Cart Page
-(Add image link)
-
-### 🔐 Login / Register
-(Add image link)
-
 ---
 
 ## 🔥 Features
@@ -47,7 +28,7 @@ A full-stack MERN e-commerce application for a jewellery shop where users can br
 ### Frontend
 - React.js
 - Axios
-- Tailwind CSS / CSS
+- HTML / CSS
 
 ### Backend
 - Node.js
