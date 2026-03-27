@@ -3,7 +3,6 @@
 A full-stack MERN e-commerce application for a jewellery shop where users can browse products, add items to cart, and place orders. Designed with a clean UI and real-world shopping flow.
 
 ---
-
 ---
 
 ## 🔥 Features
